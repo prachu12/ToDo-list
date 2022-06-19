@@ -4,8 +4,8 @@ document.querySelector('#push').onclick = function(){
            }
        
            else{
-               document.querySelector('#tasks').innerHTML += `
-                   <div class="task">
+               document.querySelector('#tasks').innerHTML += 
+                          `<div class="task">
                        <span id="taskname">
                            ${document.querySelector('#newtask').value}
                        </span>
